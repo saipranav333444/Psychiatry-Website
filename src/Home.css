@@ -1,0 +1,109 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+  font-family: 'Roboto', sans-serif;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+/* Logo */
+.logo h1 {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Nav Items */
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0; /* Remove default margin */
+}
+
+.nav-items li {
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Book Appointment Button */
+.appointment-button {
+  background-color: gold;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.appointment-button:hover {
+  background-color: darkgoldenrod;
+}
+
+.item-1 {
+  margin-top: 10px;
+}
+
+/* Responsive Styles */
+
+/* Small devices (Mobile phones, less than 600px) */
+@media (max-width: 600px) {
+  .navbar {
+      flex-direction: column; /* Stack items vertically on mobile */
+      align-items: flex-start; /* Align items to the start */
+      padding: 10px; /* Reduce padding for mobile */
+  }
+
+  .nav-items {
+      flex-direction: column; /* Stack nav items vertically */
+      gap: 10px; /* Reduce gap between items */
+      width: 100%; /* Full width for nav items */
+  }
+
+  .nav-items li {
+      font-size: 14px; /* Smaller font size for mobile */
+  }
+
+  .appointment-button {
+      font-size: 14px; /* Smaller button text for mobile */
+      padding: 8px 16px; /* Adjust padding */
+      width: 100%; /* Full width button */
+      margin-top: 10px; /* Add margin for spacing */
+  }
+}
+
+/* Tablets and larger devices (600px - 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .nav-items {
+      gap: 15px; /* Adjust gap for tablets */
+  }
+
+  .nav-items li {
+      font-size: 15px; /* Slightly larger font size for tablets */
+  }
+
+  .appointment-button {
+      font-size: 15px; /* Adjust button size */
+  }
+}
+
+/* Large devices (Desktops, 1024px and above) */
+@media (min-width: 1024px) {
+  .nav-items {
+      gap: 20px; /* Maintain larger gap for desktops */
+  }
+
+  .nav-items li {
+      font-size: 16px; /* Default font size for desktops */
+  }
+
+  .appointment-button {
+      font-size: 16px; /* Maintain default button size */
+  }
+}

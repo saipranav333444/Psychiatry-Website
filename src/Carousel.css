@@ -1,0 +1,167 @@
+/* Carousel Container */
+.carousel-container {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  padding: 20px;
+  font-family: 'Times New Roman', serif;
+  color: white;
+  position: relative;
+  transition: background-image 0.5s ease-in-out;
+}
+
+/* Carousel Content (Aligned to the left) */
+.carousel-content {
+  max-width: 500px;
+  text-align: left; /* Align text to the left */
+}
+
+/* Heading Styles */
+.carousel-heading {
+  font-size: 36px; /* Default heading size */
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Paragraph Styles */
+.carousel-text {
+  font-size: 18px; /* Default paragraph size */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.carousel-description {
+  font-size: 16px; /* Default description size */
+  margin-bottom: 20px;
+}
+
+/* Learn More Button */
+.learn-more-button {
+  background-color: gold;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px; /* Default button size */
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-button:hover {
+  background-color: darkgoldenrod;
+}
+
+/* Carousel Navigation Buttons */
+.carousel-navigation {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.nav-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px; /* Default nav button size */
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Responsive Styles */
+
+/* Small devices (Mobile phones, less than 600px) */
+@media (max-width: 600px) {
+  .carousel-container {
+      height: 300px; /* Reduce height on mobile */
+      padding: 10px; /* Reduce padding */
+  }
+
+  .carousel-heading {
+      font-size: 24px; /* Smaller heading for mobile */
+  }
+
+  .carousel-text {
+      font-size: 14px; /* Smaller text */
+  }
+
+  .carousel-description {
+      font-size: 14px; /* Smaller description */
+  }
+
+  .learn-more-button {
+      font-size: 14px; /* Smaller button text */
+      padding: 8px 16px; /* Adjust button padding */
+  }
+
+  .nav-button {
+      font-size: 20px; /* Smaller nav button */
+      padding: 8px; /* Adjust padding */
+  }
+}
+
+/* Tablets (600px - 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .carousel-container {
+      height: 400px; /* Slightly larger height for tablets */
+      padding: 15px; /* Moderate padding */
+  }
+
+  .carousel-heading {
+      font-size: 30px; /* Adjust heading size */
+  }
+
+  .carousel-text {
+      font-size: 16px; /* Adjust text size */
+  }
+
+  .carousel-description {
+      font-size: 15px; /* Adjust description size */
+  }
+
+  .learn-more-button {
+      font-size: 15px; /* Adjust button size */
+  }
+
+  .nav-button {
+      font-size: 22px; /* Adjust nav button size */
+  }
+}
+
+/* Large devices (Desktops, 1024px and above) */
+@media (min-width: 1024px) {
+  .carousel-container {
+      height: 500px; /* Default height for desktops */
+      padding: 20px; /* Maintain default padding */
+  }
+
+  .carousel-heading {
+      font-size: 36px; /* Default heading size */
+  }
+
+  .carousel-text {
+      font-size: 18px; /* Default text size */
+  }
+
+  .carousel-description {
+      font-size: 16px; /* Default description size */
+  }
+
+  .learn-more-button {
+      font-size: 16px; /* Default button size */
+  }
+
+  .nav-button {
+      font-size: 24px; /* Default nav button size */
+  }
+}

@@ -1,0 +1,44 @@
+/* Main Container */
+.wave-container {
+    background-color: black; /* Black background */
+    position: relative; /* For positioning the wave border */
+    overflow: hidden; /* Hide overflow for the wave effect */
+    padding: 40px; /* Space around content */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+  
+  /* SVG Wave Styles */
+  .wave {
+    position: absolute; /* Absolute positioning to cover the top */
+    top: 0; /* Align to the top of the container */
+    left: 0;
+    width: 100%; /* Full width */
+    height: 120px; /* Adjust height as needed */
+    fill: black; /* Fill color of the wave */
+    z-index: 1; /* Ensure it appears behind the content */
+  }
+  
+  /* Content Styles */
+  .content {
+    position: relative; /* Position relative to stack above the wave */
+    text-align: center; /* Center text */
+    color: white; /* White text */
+    font-family: 'Roboto', sans-serif; /* Roboto font */
+    z-index: 2; /* Ensure content is above the wave */
+  }
+  
+  /* Quotation Image Styles */
+  .quotation-image {
+    width: 80px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the image */
+  }
+  
+  /* Quote Text Styles */
+  .quote-text {
+    font-size: 20px; /* Adjust size as needed */
+    margin: 0; /* Remove default margin */
+  }
+  

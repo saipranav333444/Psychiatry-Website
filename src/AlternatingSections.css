@@ -1,0 +1,131 @@
+/* Main Container */
+.alternating-container {
+  background-color: #f9e59d; /* Mild yellow background */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+
+/* Individual Section */
+.section {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin-bottom: 20px; /* Space between sections */
+  width: 80%; /* Set width of each section */
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Image Styles */
+.section-image {
+  border-radius: 50%; /* Make the image round */
+  width: 100px; /* Set image size */
+  height: 100px; /* Set image size */
+  margin: 0 20px; /* Space between image and text */
+}
+
+/* Text Styles */
+.section-text {
+  text-align: left; /* Align text to the left */
+}
+
+/* Heading Styles */
+.section-heading {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 24px; /* Heading size */
+  margin: 0 0 10px 0; /* Space below heading */
+}
+
+/* Paragraph Styles */
+.section-paragraph {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 16px; /* Paragraph size */
+  margin: 0 0 10px 0; /* Space below paragraph */
+}
+
+/* Learn More Button */
+.learn-more-button {
+  background-color: gold;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-button:hover {
+  background-color: darkgoldenrod; /* Darken on hover */
+}
+
+/* Responsive Styles */
+
+/* Small devices (Mobile phones, less than 600px) */
+@media (max-width: 600px) {
+  .section {
+      flex-direction: column; /* Stack sections vertically */
+      width: 90%; /* Full width on mobile */
+  }
+
+  .section-image {
+      width: 80px; /* Adjust image size for mobile */
+      height: 80px; /* Adjust image size for mobile */
+      margin: 0 10px; /* Adjust margin */
+  }
+
+  .section-heading {
+      font-size: 20px; /* Smaller heading size */
+  }
+
+  .section-paragraph {
+      font-size: 14px; /* Smaller paragraph size */
+  }
+
+  .learn-more-button {
+      padding: 8px 16px; /* Adjust padding */
+      font-size: 14px; /* Smaller button text */
+  }
+}
+
+/* Medium devices (Tablets, 600px - 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .section {
+      width: 85%; /* Slightly larger width on tablets */
+  }
+
+  .section-heading {
+      font-size: 22px; /* Adjust heading size */
+  }
+
+  .section-paragraph {
+      font-size: 15px; /* Adjust paragraph size */
+  }
+
+  .learn-more-button {
+      padding: 9px 18px; /* Adjust padding */
+      font-size: 15px; /* Adjust button text */
+  }
+}
+
+/* Large devices (Desktops, 1024px and above) */
+@media (min-width: 1024px) {
+  .section {
+      width: 80%; /* Default width for larger devices */
+  }
+
+  .section-heading {
+      font-size: 24px; /* Default heading size */
+  }
+
+  .section-paragraph {
+      font-size: 16px; /* Default paragraph size */
+  }
+
+  .learn-more-button {
+      padding: 10px 20px; /* Default padding */
+      font-size: 16px; /* Default button text */
+  }
+}

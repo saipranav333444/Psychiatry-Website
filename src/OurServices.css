@@ -1,0 +1,63 @@
+/* Main Container */
+.services-container {
+    background-color: #fff9c4; /* Mild yellow background */
+    padding: 40px;
+    text-align: center; /* Center text */
+    font-family: 'Roboto', sans-serif; /* Roboto font */
+  }
+  
+  /* Heading Styles */
+  .services-heading {
+    color: black; /* Black text color */
+    font-size: 36px; /* Adjust size as needed */
+    margin-bottom: 20px; /* Space below heading */
+  }
+  
+  /* Services Grid */
+  .services-grid {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center items */
+    flex-wrap: wrap; /* Wrap items if necessary */
+    gap: 20px; /* Space between containers */
+  }
+  
+  /* Individual Service Box */
+  .service-box {
+    background-color: white; /* White background for each service box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    width: 150px; /* Fixed width */
+    text-align: center; /* Center text inside service box */
+  }
+  
+  /* Image Styles */
+  .service-image {
+    width: 100px; /* Fixed image size */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below image */
+  }
+  
+  /* Service Title Styles */
+  .service-title {
+    color: black; /* Black text for titles */
+    font-size: 16px; /* Adjust size as needed */
+  }
+  
+  /* Button Styles */
+  .view-services-button {
+    background-color: gold; /* Gold background */
+    color: black; /* Black text */
+    padding: 10px 20px; /* Padding around button */
+    border: none; /* No border */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 16px; /* Adjust size as needed */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 20px; /* Space above button */
+  }
+  
+  /* Button Hover Effects */
+  .view-services-button:hover {
+    background-color: darkgoldenrod; /* Darker gold on hover */
+  }
+  

@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import Home from "./Home"
+import Carousel from "./Carousel"
+import FounderContainer from "./FounderContainer"
+import AlternatingSections from "./AlternatingSections"
+import WaveBackground from "./WaveBackground"
+import OurServices from "./OurServices"
+import ImageTextContainer from "./ImageTextContainer"
+import TestimonialCarousel from "./TestimonialCarousel"
+import TextContainerLayout from "./TextContainerLayout"
+const App = () => {
+  return(
+    <div>
+      
+      <Home/>
+      <Carousel/>
+      <FounderContainer/>
+      <AlternatingSections/>
+      <WaveBackground/>
+      <OurServices/>
+      <ImageTextContainer/>
+      <TestimonialCarousel/>
+      <TextContainerLayout/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

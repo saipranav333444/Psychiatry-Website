@@ -1,0 +1,176 @@
+/* Main Container */
+.founder-container {
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  background-color: #FFFFC5; /* Correct hex code with '#', previously missing */
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  width: 100%; /* Full width of the viewport */
+  height: 600px; /* Height set to 600px */
+  margin: 0; /* No margin */
+  padding: 20px; /* Optional padding */
+}
+
+/* Content Wrapper */
+.founder-content {
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Center vertically */
+  gap: 40px; /* Space between image and text */
+}
+
+/* Image Styles */
+.founder-image {
+  width: 300px; /* Set a specific width */
+  height: 400px; /* Maintain aspect ratio */
+}
+
+/* Text Container */
+.founder-text {
+  max-width: 100%; /* Full width of the container */
+}
+
+/* Heading Styles */
+.founder-heading {
+  font-size: 24px; /* Size for the heading */
+  margin-bottom: 10px; /* Space below heading */
+}
+
+/* Name and Title Styles */
+.founder-name {
+  font-size: 20px; /* Size for the name */
+  margin: 5px 0; /* Space above and below name */
+}
+
+.founder-title {
+  font-size: 18px; /* Size for the title */
+  margin: 5px 0; /* Space above and below title */
+}
+
+/* Quote Styles */
+.founder-quote {
+  font-size: 16px; /* Smaller size for the quote */
+  margin: 10px 0; /* Space above and below quote */
+}
+
+/* Learn More Button */
+.learn-more-button {
+  background-color: gold;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px; /* Default button size */
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-button:hover {
+  background-color: darkgoldenrod; /* Darken on hover */
+}
+
+/* Responsive Styles */
+
+/* Small devices (Mobile phones, less than 600px) */
+@media (max-width: 600px) {
+  .founder-container {
+      height: auto; /* Allow height to adjust based on content */
+      padding: 10px; /* Reduce padding for mobile */
+  }
+
+  .founder-content {
+      flex-direction: column; /* Stack content vertically on mobile */
+      align-items: center; /* Center items */
+      gap: 20px; /* Reduce gap for mobile */
+  }
+
+  .founder-image {
+      width: 80%; /* Adjust image width for mobile */
+      height: auto; /* Maintain aspect ratio */
+  }
+
+  .founder-heading {
+      font-size: 20px; /* Smaller heading size */
+  }
+
+  .founder-name {
+      font-size: 18px; /* Smaller name size */
+  }
+
+  .founder-title {
+      font-size: 16px; /* Smaller title size */
+  }
+
+  .founder-quote {
+      font-size: 14px; /* Smaller quote size */
+  }
+
+  .learn-more-button {
+      font-size: 14px; /* Smaller button text for mobile */
+      padding: 8px 16px; /* Adjust padding */
+  }
+}
+
+/* Tablets (600px - 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .founder-container {
+      height: 500px; /* Slightly smaller height for tablets */
+      padding: 15px; /* Moderate padding */
+  }
+
+  .founder-content {
+      gap: 30px; /* Moderate gap for tablets */
+  }
+
+  .founder-heading {
+      font-size: 22px; /* Adjust heading size for tablets */
+  }
+
+  .founder-name {
+      font-size: 19px; /* Adjust name size */
+  }
+
+  .founder-title {
+      font-size: 17px; /* Adjust title size */
+  }
+
+  .founder-quote {
+      font-size: 15px; /* Adjust quote size */
+  }
+
+  .learn-more-button {
+      font-size: 15px; /* Adjust button size */
+  }
+}
+
+/* Large devices (Desktops, 1024px and above) */
+@media (min-width: 1024px) {
+  .founder-container {
+      height: 600px; /* Default height for desktops */
+      padding: 20px; /* Maintain default padding */
+  }
+
+  .founder-content {
+      gap: 40px; /* Maintain larger gap for desktops */
+  }
+
+  .founder-heading {
+      font-size: 24px; /* Default heading size */
+  }
+
+  .founder-name {
+      font-size: 20px; /* Default name size */
+  }
+
+  .founder-title {
+      font-size: 18px; /* Default title size */
+  }
+
+  .founder-quote {
+      font-size: 16px; /* Default quote size */
+  }
+
+  .learn-more-button {
+      font-size: 16px; /* Default button size */
+  }
+}

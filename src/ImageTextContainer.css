@@ -1,0 +1,101 @@
+/* Main Container */
+.main-container {
+  display: flex; /* Flexbox layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  background-color: #f0e68c; /* Mild gold background */
+  padding: 40px;
+  font-family: 'Roboto', sans-serif; /* Roboto font */
+  color: black; /* Black text color */
+  height: 500px; /* Fixed height for the container */
+}
+
+/* Image Container */
+.image-container {
+  margin-right: 40px; /* Space between image and text */
+}
+
+.content-image {
+  width: 200px; /* Fixed image width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Slightly rounded corners */
+}
+
+/* Text Container */
+.text-container {
+  max-width: 500px; /* Limit width of the text content */
+  text-align: left; /* Align text to the left */
+}
+
+/* Heading Styles */
+.content-heading {
+  font-size: 32px; /* Larger font size for heading */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+/* Paragraph Styles */
+.content-paragraph {
+  font-size: 18px; /* Paragraph font size */
+  margin-bottom: 10px; /* Space below each paragraph */
+}
+
+/* Responsive Styles */
+
+/* Small devices (Mobile phones, less than 600px) */
+@media (max-width: 600px) {
+  .main-container {
+      flex-direction: column; /* Stack items vertically */
+      height: auto; /* Remove fixed height for better fit */
+      padding: 20px; /* Reduce padding on mobile */
+  }
+
+  .image-container {
+      margin-right: 0; /* Remove margin for stacking */
+      margin-bottom: 20px; /* Add space below image */
+  }
+
+  .content-image {
+      width: 100%; /* Full width of the container */
+      max-width: 200px; /* Limit max width to original image width */
+  }
+
+  .content-heading {
+      font-size: 24px; /* Smaller heading size for mobile */
+  }
+
+  .content-paragraph {
+      font-size: 16px; /* Smaller paragraph size */
+  }
+}
+
+/* Medium devices (Tablets, 600px - 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .main-container {
+      height: auto; /* Remove fixed height for better fit */
+      padding: 30px; /* Slightly reduce padding */
+  }
+
+  .content-heading {
+      font-size: 28px; /* Adjust heading size */
+  }
+
+  .content-paragraph {
+      font-size: 17px; /* Adjust paragraph size */
+  }
+}
+
+/* Large devices (Desktops, 1024px and above) */
+@media (min-width: 1024px) {
+  .main-container {
+      height: 500px; /* Keep fixed height for larger devices */
+      padding: 40px; /* Default padding */
+  }
+
+  .content-heading {
+      font-size: 32px; /* Default heading size */
+  }
+
+  .content-paragraph {
+      font-size: 18px; /* Default paragraph size */
+  }
+}

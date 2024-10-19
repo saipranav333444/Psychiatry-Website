@@ -1,0 +1,76 @@
+/* Carousel Container */
+.carousel-container {
+    background-color: #f0e6d6; /* Light brown background */
+    width: 100%;
+    height: 500px; /* Fixed height for the carousel */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    font-family: 'Roboto', sans-serif; /* Roboto font */
+    position: relative; /* To position buttons absolutely */
+  }
+  
+  /* Testimonial Slide */
+  .testimonial-slide {
+    max-width: 700px; /* Limit width of testimonial text */
+    text-align: center; /* Center align text */
+    padding: 0 20px;
+  }
+  
+  /* Testimonial Quote Styles */
+  .testimonial-quote {
+    font-size: 24px;
+    color: #333; /* Darker color for text */
+    margin-bottom: 20px;
+  }
+  
+  /* Testimonial Details (Name and Image) */
+  .testimonial-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #d4c0a1; /* Light brown for container */
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Testimonial Image Styles */
+  .testimonial-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Make the image round */
+  }
+  
+  /* Testimonial Name Styles */
+  .testimonial-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555; /* Slightly lighter color for the name */
+    margin-left: 10px;
+  }
+  
+  /* Carousel Buttons */
+  .carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  
+  .carousel-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 36px;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .carousel-btn:hover {
+    color: gold; /* Highlight color when hovered */
+  }
+  
