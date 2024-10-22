@@ -8,10 +8,10 @@ const WaveBackground = () => {
         <path d="M0,0 C480,100 960,100 1440,0 L1440,120 L0,120 Z" />
       </svg>
       <div className="content">
-      <p className="quote-text">
-''        </p>
+      <p className="quote-text-1">
+''         </p>
         <p className="quote-text">
-          We help people living with and experiencing difficult times
+          "We help people living with and experiencing difficult times"
         </p>
       </div>
     </div>

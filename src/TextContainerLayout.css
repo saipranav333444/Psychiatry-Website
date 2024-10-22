@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 600px; /* Ensuring the total width of the component is 600px */
+   /* Ensuring the total width of the component is 600px */
   width: 100%;
 }
 
@@ -27,6 +27,7 @@
   flex-direction: column;
   text-align: center;
   width: 20%;
+  margin-right: 100px;
 }
 
 /* Headings in Gold */

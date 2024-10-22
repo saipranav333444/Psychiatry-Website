@@ -10,10 +10,11 @@
 }
 
 /* Logo */
-.logo h1 {
+.logo-name{
   color: white;
   margin: 0;
   font-size: 24px;
+  padding-top: 30px;
 }
 
 /* Nav Items */

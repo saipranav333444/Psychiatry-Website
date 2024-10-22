@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <h1>PSYCHIATRY</h1>
+        <h1 className='logo-name'>PSYCHIATRY</h1>
       </div>
       <ul className="nav-items">
         <li className='item-1'>Who We Are</li>

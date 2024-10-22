@@ -6,7 +6,7 @@ const ImageTextContainer = () => {
     <div className="main-container">
       <div className="image-container">
         <img
-          src="https://via.placeholder.com/200" // Replace with your image URL
+          src="https://www.livemint.com/lm-img/img/2024/10/10/600x338/FILES-INDIA-BUSINESS-TATA-0_1728529479202_1728529502774.jpg" // Replace with your image URL
           alt="Placeholder"
           className="content-image"
         />

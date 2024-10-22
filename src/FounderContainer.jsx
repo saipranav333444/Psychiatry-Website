@@ -6,7 +6,7 @@ const FounderContainer = () => {
     <div className="founder-container">
       <div className="founder-content">
         <img
-          src="https://as2.ftcdn.net/v2/jpg/01/24/04/85/1000_F_124048525_am4lMMG4T5S964BXS647M6O68eM7hQf7.jpg" // Replace with your founder's image URL
+          src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSGCwfalnqVO-2knIDDvcp7_05L7iYTCDJfoRbl8o9acWqpnytu" // Replace with your founder's image URL
           alt="Lakeisha Appleton"
           className="founder-image"
         />

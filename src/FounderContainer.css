@@ -23,6 +23,9 @@
 .founder-image {
   width: 300px; /* Set a specific width */
   height: 400px; /* Maintain aspect ratio */
+  border-radius: 20px;
+  box-shadow: 10px ;
+  object-fit: contain;
 }
 
 /* Text Container */

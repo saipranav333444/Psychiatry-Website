@@ -1,0 +1,65 @@
+/* Main Container */
+.steps-container {
+  background-color: black; /* Mild yellow background */
+  padding: 40px;
+  text-align: center; /* Center text */
+  font-family: 'Roboto', sans-serif; /* Roboto font */
+}
+
+/* Heading Styles */
+.steps-heading {
+  color: goldenrod;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Services Grid */
+.steps-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Individual Service Box */
+.steps-box {
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  
+}
+
+/* Image Styles */
+.steps-image {
+  width: 100px;
+  height: 120px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Service Title Styles */
+.steps-title {
+  color: whitesmoke;
+  font-size: 16px;
+}
+
+/* Button Styles */
+.steps-button {
+  background-color: gold;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Button Hover Effects */
+.steps-button:hover {
+  background-color: darkgoldenrod;
+}

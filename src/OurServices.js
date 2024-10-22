@@ -5,32 +5,32 @@ const services = [
   {
     id: 1,
     title: 'Service 1',
-    image: 'https://via.placeholder.com/100', // Replace with your image URL
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtl7NP4FIy1sdPOZBj7sJLPHcgydUsKpNjPg&s', // Replace with your image URL
   },
   {
     id: 2,
     title: 'Service 2',
-    image: 'https://via.placeholder.com/100', // Replace with your image URL
+    image: 'https://www.shutterstock.com/image-vector/psychologist-session-icon-outline-vector-260nw-1804250452.jpg', // Replace with your image URL
   },
   {
     id: 3,
     title: 'Service 3',
-    image: 'https://via.placeholder.com/100', // Replace with your image URL
+    image: 'https://cdn-icons-png.flaticon.com/128/2913/2913000.png', // Replace with your image URL
   },
   {
     id: 4,
     title: 'Service 4',
-    image: 'https://via.placeholder.com/100', // Replace with your image URL
+    image: 'https://cdn-icons-png.flaticon.com/512/10491/10491709.png', // Replace with your image URL
   },
   {
     id: 5,
     title: 'Service 5',
-    image: 'https://via.placeholder.com/100', // Replace with your image URL
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlz9XjkhShftsaEav5qi0pGOM4wE9OejzPGw&s', // Replace with your image URL
   },
   {
     id: 6,
     title: 'Service 6',
-    image: 'https://via.placeholder.com/100', // Replace with your image URL
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzc-aQ8aEGAGHUjApji8lT-oSdf5AfcFhARQ&s', // Replace with your image URL
   },
 ];
 

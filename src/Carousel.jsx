@@ -52,7 +52,7 @@ const Carousel = () => {
         <p className="carousel-text">{slides[currentSlide].text}</p>
         <p className="carousel-description">{slides[currentSlide].description}</p>
         <button className="learn-more-button">
-          ${slides[currentSlide].buttonText} ->
+          {slides[currentSlide].buttonText} 
         </button>
       </div>
       <div className="carousel-navigation">

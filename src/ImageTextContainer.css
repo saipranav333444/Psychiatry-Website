@@ -16,9 +16,10 @@
 }
 
 .content-image {
-  width: 200px; /* Fixed image width */
+  width: 500px; /* Fixed image width */
   height: auto; /* Maintain aspect ratio */
   border-radius: 10px; /* Slightly rounded corners */
+  object-fit: cover;
 }
 
 /* Text Container */

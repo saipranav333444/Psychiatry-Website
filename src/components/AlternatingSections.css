@@ -4,6 +4,7 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center; /* Center items horizontally */
 }
 
@@ -11,17 +12,23 @@
 .section {
   display: flex;
   align-items: center; /* Center items vertically */
-  margin-bottom: 20px; /* Space between sections */
+  margin-bottom: 60px; /* Space between sections */
   width: 80%; /* Set width of each section */
   justify-content: center; /* Center items horizontally */
 }
 
 /* Image Styles */
-.section-image {
+.section-image-left {
   border-radius: 50%; /* Make the image round */
-  width: 100px; /* Set image size */
-  height: 100px; /* Set image size */
-  margin: 0 20px; /* Space between image and text */
+  width: 200px; /* Set image size */
+  height: 200px; /* Set image size */
+  margin-right: 370px; /* Space between image and text */
+}
+.section-image-right {
+  border-radius: 50%; /* Make the image round */
+  width: 200px; /* Set image size */
+  height: 200px; /* Set image size */
+  margin-left: 270px; /* Space between image and text */
 }
 
 /* Text Styles */
@@ -128,4 +135,11 @@
       padding: 10px 20px; /* Default padding */
       font-size: 16px; /* Default button text */
   }
+}
+
+h1{
+  font-family: 'roboto';
+  font-size: 60px;
+  font-weight: 500;
+  padding-bottom: 40px;
 }
